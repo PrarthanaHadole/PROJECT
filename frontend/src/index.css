@@ -1,0 +1,141 @@
+
+*,
+::before,
+::after{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+label{
+  font-size: 20px;
+}
+
+html,
+body{
+  height: 100vh;
+  width: 100vw;
+  background-image: url('data:image/jpeg;base64,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');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+body{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* align-items: center; */
+}
+
+.container{
+  background-color: #FFF;
+  padding: 32px 48px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 8px 8px 24px 0px rgb(90, 92, 118);
+}
+
+.container > h1{
+  margin-bottom: 20px;
+}
+
+.container > form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container div{
+  display: flex;
+  flex-direction: column;
+}
+
+.container input{
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.container input::placeholder{
+  font-size: 12px;
+  font-style: italic;
+}
+
+button{
+  background-color: purple;
+  border: none;
+  font-size: 15px;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.user-section{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Minimal styling for the expense list */
+.expense-list {
+  font-family: Arial, sans-serif;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.expense-description {
+  font-weight: bold;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 4px 7px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
+
+.amounts-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+.main-amount{
+  color: #0a2d19;
+  font-weight: bold;
+  font-size: 22px;
+  
+}
+
+.income-amount {
+  color: #176136;
+  font-weight: bold;
+}
+
+.expense-amount{
+  color: #c0392b;
+  font-weight: bold;
+}
